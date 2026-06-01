@@ -1,0 +1,78 @@
+body{
+    padding: 30px;
+    background-color: rgb(205, 253, 236);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+table{
+    height: 80px;
+    width: 850px;
+    margin: auto;
+    margin-left: 20px;
+    background-color: rgb(253, 219, 168);
+    border-radius: 10px;
+    border-collapse: collapse;
+    border: 10px solid rgb(251, 193, 238);
+    
+}
+table th a{
+    color: rgb(159, 48, 94);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+form{
+    padding: 40px;
+    border-radius: 20px;
+    background-color: rgba(251, 244, 234, 0.913);
+    border-style: solid;
+    border-color: rgb(159, 48, 94);
+    border-width: 8px;
+    width: 700px;
+    margin: auto;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+
+.bloque-inputs{
+    display: inline-block;
+    width: 70%;
+    vertical-align: middle;
+
+}
+
+.fila{
+    margin-bottom: 25px;
+    color: rgb(159, 48, 94) ;
+}
+
+label{
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
+
+}
+
+input{
+    width: 350px;
+    padding: 8px;
+    border: 4px solid  rgb(253, 219, 168) ;
+    border-radius: 4px;
+}
+
+.boton-buscar{
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+    background-color: aliceblue;
+    color: rgb(159, 48, 94) ;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+    border: 8px solid rgb(251, 193, 238);
+    border-radius: 6px;
+    box-shadow: 0 8px 10px rgba(255, 172, 232, 0.913);
+    cursor: pointer;
+    vertical-align: middle;
+    margin-left: 30px;
+}   
